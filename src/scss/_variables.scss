@@ -34,6 +34,49 @@ $color-gray: #9D9D9D;
 $color-gray-dark: #7B7A7A;
 $color-gray-darker: #414141;
 
+// map
+$colors: (
+  "color-violet-lighter": $color-violet-lighter,
+  "color-violet-light": $color-violet-light,
+  "color-violet": $color-violet,
+  "color-violet-dark": $color-violet-dark,
+  "color-violet-darker": $color-violet-darker,
+
+  "color-rose-lighter": $color-rose-lighter,
+  "color-rose-light": $color-rose-light,
+  "color-rose": $color-rose,
+  "color-rose-dark": $color-rose-dark,
+  "color-rose-darker": $color-rose-darker,
+
+  "color-buff-lighter": $color-buff-lighter,
+  "color-buff-light": $color-buff-light,
+  "color-buff": $color-buff,
+  "color-buff-dark": $color-buff-dark,
+  "color-buff-darker": $color-buff-darker,
+
+  "color-blue-lighter": $color-blue-lighter,
+  "color-blue-light": $color-blue-light,
+  "color-blue": $color-blue,
+  "color-blue-dark": $color-blue-dark,
+  "color-blue-darker": $color-blue-darker,
+
+  "color-gray-lighter": $color-gray-lighter,
+  "color-gray-light": $color-gray-light,
+  "color-gray": $color-gray,
+  "color-gray-dark": $color-gray-dark,
+  "color-gray-darker": $color-gray-darker
+);
+
+// bucle
+@each $color, $i in $colors {
+  .text-#{$color} {
+    color: $i;
+  }
+  .bg-#{$color} {
+    background-color: $i;
+  }
+}
+
 /* TYPOGRAPHY */
 $font-primary: 'Space Mono', monospace;
 $font-seconday: 'Space Grotesk', sans-serif;
