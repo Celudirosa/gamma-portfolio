@@ -9,6 +9,10 @@ export default function Navbar() {
     setMenu( !menu )
   }
 
+  const closeMenu = () => {
+    setMenu( false )
+  }
+
   return (
     <>
       <header className='header-nav'>
@@ -23,9 +27,9 @@ export default function Navbar() {
 
         <nav className={ `main-nav ${ menu ? 'isActive' : '' }` }>
           <ul className='nav-links'>
-            <li className='link-item'><a className='a-nav' href='#section-about'>ABOUT</a></li>
-            <li className='link-item'><a className='a-nav' href='#section-projects'>PROJECTS</a></li>
-            <li className='link-item'><a className='a-nav' href='#section-contact'>CONTACT</a></li>
+            <li className='link-item'><a onClick={ closeMenu } className='a-nav' href='#section-about'>ABOUT</a></li>
+            <li className='link-item'><a onClick={ closeMenu } className='a-nav' href='#section-projects'>PROJECTS</a></li>
+            <li className='link-item'><a onClick={ closeMenu } className='a-nav' href='#section-contact'>CONTACT</a></li>
           </ul>
         </nav>
 
