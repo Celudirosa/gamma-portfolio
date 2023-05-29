@@ -2,6 +2,10 @@
 @import './functions';
 @import './typography';
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
 }
