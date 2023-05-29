@@ -5,7 +5,14 @@ export default function Home() {
     <>
       <section id='section-home'>
         <div className="bg-color-rose-lighter component-container">
-          <h1 className='name'>Hola, soy la Home</h1>
+          <div className='center'>
+            <p className='text-left'>Hi! 👋🏻 I'm</p>
+              <div className='text-center'>
+                <h1 className='name'>Celia</h1>
+              </div>
+            <p className='text-right'>Luque Díaz</p>
+          </div>
+          <p className='text-below'>aka Celudirosa en RRSS</p>
         </div>
       </section>
     </>
