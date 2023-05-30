@@ -1,0 +1,23 @@
+// color bucle
+@each $color, $value in $colors {
+  .text-#{$color} {
+    color: $value;
+  }
+  .bg-#{$color} {
+    background-color: $value;
+  }
+}
+
+// font-size bucle
+@each $size, $value in $sizes {
+  .font-#{size} {
+    font-size: $value;
+  }
+}
+
+// font-weight bucle
+@each $weight, $value in $weights {
+  .font-#{$weight} {
+    font-weight: $value;
+  }
+}

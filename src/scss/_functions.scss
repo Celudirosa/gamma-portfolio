@@ -1,0 +1,3 @@
+@function spacing($margin) {
+  @return map-get($margins, $margin) * 1rem; 
+}

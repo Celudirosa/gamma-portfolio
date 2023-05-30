@@ -1,8 +1,10 @@
 @import './variables';
 @import './functions';
 @import './typography';
+@import './utilities';
 
 html {
+  font-size: $font-medium;
   scroll-behavior: smooth;
 }
 
