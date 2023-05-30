@@ -8,14 +8,8 @@
   }
 }
 
-// font-size bucle
-@each $size, $value in $sizes {
-  .font-#{size} {
-    font-size: $value;
-  }
-}
 
-// font-weight bucle
+// weight bucle
 @each $weight, $value in $weights {
   .font-#{$weight} {
     font-weight: $value;

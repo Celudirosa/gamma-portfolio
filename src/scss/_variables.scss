@@ -75,25 +75,15 @@ $font-medium: 1rem;
 $font-headers: $font-secondary;
 
 // SIZES
-$size-14: 1.4rem; // 14px
-$size-16: 1.6rem; // 16px
-$size-20: 2.0rem; // 20px
-$size-24: 2.4rem; // 24px
-$size-36: 3.6rem; // 36px
-$size-48: 4.8rem; // 48px
-$size-64: 6.4rem; // 64px
-$size-96: 9.6rem; // 96px
-
-// size map
-$sizes: (
-  "size-14": $size-14,
-  "size-16": $size-16,
-  "size-20": $size-20,
-  "size-24": $size-24,
-  "size-36": $size-36,
-  "size-48": $size-48,
-  "size-64": $size-64,
-  "size-96": $size-96,
+$font_sizes: (
+    "small": 1.2,
+    "medium": 1.5,
+    "large": 1.8,
+    "x-large": 2,
+    "big": 2.4,
+    "x-big": 3,
+    "huge": 5,
+    "x-huge": 7
 );
 
 // WEIGHTS
