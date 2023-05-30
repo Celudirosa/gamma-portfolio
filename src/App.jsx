@@ -4,7 +4,7 @@ import './scss/global.scss'
 
 function App() {
 
-    // CHANGE PAGE TITLE
+  // CHANGE PAGE TITLE
   // Detect when the user changes tabs
   document.addEventListener("visibilitychange", function() {
     if (document.hidden) {

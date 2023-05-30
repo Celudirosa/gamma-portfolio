@@ -1,6 +1,12 @@
 @import '../../scss/variables';
 @import '../../scss/functions';
 
+.a-nav {
+  all: unset;
+  font-family: $font-details;
+  cursor: pointer;
+}
+
 .header-nav {
   position: fixed;
   top: 0;
@@ -12,6 +18,7 @@
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  padding: spacing(huge);
 }
 
 .nav-button {
@@ -41,7 +48,7 @@
   }
 
   .main-nav {
-    width: 100%;
+    width: 100vw;
 
     display: flex;
     flex-flow: column nowrap;

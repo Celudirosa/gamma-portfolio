@@ -8,7 +8,6 @@
   }
 }
 
-
 // weight bucle
 @each $weight, $value in $weights {
   .font-#{$weight} {

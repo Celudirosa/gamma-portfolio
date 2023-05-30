@@ -12,6 +12,7 @@ export default function Home() {
               </div>
             <p className='text-right'>Luque Díaz</p>
           </div>
+          <p>👇🏻</p>
           <p className='text-below'>aka Celudirosa en RRSS</p>
         </div>
       </section>

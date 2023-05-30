@@ -1,7 +1,9 @@
+// font-size
 @function fs($font-size) {
   @return map-get($font-sizes, $font-size) * 1rem;
 }
 
+// margins & paddings
 @function spacing($margin) {
   @return map-get($margins, $margin) * 1rem; 
 }

@@ -68,13 +68,14 @@ $colors: (
 );
 
 /* TYPOGRAPHY */
-$font-primary: 'Space Mono', monospace;
-$font-secondary: 'Space Grotesk', sans-serif;
+$font-primary: 'Space Grotesk', sans-serif;
+$font-secondary: 'Space Mono', monospace;
+$font-details: 'Climate Crisis', cursive;
 
 $font-medium: 1rem;
 $font-headers: $font-secondary;
 
-// SIZES
+// sizes
 $font_sizes: (
     "small": 1.2,
     "medium": 1.5,
@@ -86,11 +87,10 @@ $font_sizes: (
     "x-huge": 7
 );
 
-// WEIGHTS
+// weight
 $weight-bold: 700;
 $weight-regular: 400;
 
-// weight map
 $weights: (
   "weight-bold": $weight-bold,
   "weight-regular": $weight-regular,
