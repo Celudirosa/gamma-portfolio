@@ -18,7 +18,7 @@ export default function Navbar() {
       <header className='header-nav'>
 
         <h1 className='h1-nav'>
-          <a className='a-nav' href='#section-home'>C</a>
+          <a className='a-nav' href='#section-name'>C</a>
         </h1>
 
         <button onClick={ toggleMenu } className='nav-button'>

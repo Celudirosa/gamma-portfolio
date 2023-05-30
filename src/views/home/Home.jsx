@@ -1,20 +1,17 @@
-import './home.scss'
+import Navbar from '../../components/navbar/Navbar';
+import Name from '../../components/name/Name';
+import About from '../../components/about/About'
+import Projects from '../../components/projects/Projects';
+import Contact from '../../components/contact/Contact';
 
 export default function Home() {
   return (
     <>
-      <section id='section-home'>
-        <div className="bg-color-rose-lighter component-container">
-          <div className='center'>
-            <p className='text-left'>Hi! 👋🏻 I'm</p>
-              <div className='text-center'>
-                <h1 className='name'>Celia</h1>
-              </div>
-            <p className='text-right'>Luque Díaz</p>
-          </div>
-          <p className='text-below'>aka Celudirosa en RRSS</p>
-        </div>
-      </section>
+      <Navbar />
+      <Name />
+      <About />
+      <Projects />
+      <Contact />
     </>
   )
 }
