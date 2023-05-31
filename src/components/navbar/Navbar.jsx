@@ -17,18 +17,24 @@ export default function Navbar() {
     <>
       <header className='header-nav'>
 
+        {/* Header title */}
         <h1 className='h1-nav'>
           <a className='a-nav text-color-buff' href='#section-name'>C</a>
         </h1>
 
+        {/* Menu toggle button */}
         <button onClick={ toggleMenu } className='nav-button'>
           <a className='nav-burger'>🍔</a>
         </button>
 
+        {/* Main navigation */}
         <nav className={ `main-nav ${ menu ? 'isActive' : '' }` }>
           <ul className='nav-links'>
+            {/* About section link */}
             <li className='link-item'><a onClick={ closeMenu } className='a-nav' href='#section-about'>ABOUT</a></li>
+            {/* Projects section link */}
             <li className='link-item'><a onClick={ closeMenu } className='a-nav' href='#section-projects'>PROJECTS</a></li>
+            {/* Contact section link */}
             <li className='link-item'><a onClick={ closeMenu } className='a-nav' href='#section-contact'>CONTACT</a></li>
           </ul>
         </nav>

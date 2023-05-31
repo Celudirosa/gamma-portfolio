@@ -1,2 +1,22 @@
 @import '../../scss/variables';
 @import '../../scss/functions';
+
+#section-about {
+  align-items: flex-start;
+  font-family: $font-primary;
+
+  h1 {
+    font-size: fs(x-big);
+    margin-bottom: spacing(x-big);
+  }
+  
+  > div {
+    margin: 0 spacing(huge);
+
+    p:last-of-type.font-weight-bold {
+      text-align: right;
+      font-size: fs(large);
+      margin-top: spacing(x-small);
+    }
+  }
+}
