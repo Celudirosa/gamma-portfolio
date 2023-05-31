@@ -58,11 +58,11 @@
     opacity: 0;
     overflow: hidden;
     transition: all .5s ease;
-  }
 
-  .main-nav.isActive {
-    height: 100vh;
-    opacity: 1;
+    &.isActive {
+      height: 100vh;
+      opacity: 1;
+    }
   }
 
   .nav-links {
