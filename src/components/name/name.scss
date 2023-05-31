@@ -1,6 +1,13 @@
 @import '../../scss/variables';
 @import '../../scss/functions';
 
+.hidden {
+  position: absolute;
+  top: 0;
+  right: 0;
+  visibility: hidden;
+}
+
 .component-container {
   display: flex;
   justify-content: center;
@@ -14,9 +21,11 @@
   }
 }
 
-.name {
-  font-size: fs(x-huge);
-  font-family: $font-details;
+@media screen and (max-width:700px){
+  .name {
+    width: 15vh;
+    height: 15vh;
+  }
 }
 
 .center {
@@ -24,20 +33,23 @@
   height: auto;
 }
 
-.text-left {
-  text-align: left;
-  font-family: $font-primary;
-}
-
 .text-center {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
-  font-family: $font-primary;
+.text-left {
+  text-align: left;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text {
+  font-family: $font-secondary;
+  color: $color-violet;
+  font-size: fs(x-large);
+}
 
 .text-bottom {
   position: absolute;
@@ -68,6 +80,11 @@
     &:nth-child(2) {
       text-align: center;
       font-family: $font-primary;
+      font-size: fs(small);
+
+      span {
+        font-size: fs(medium);
+      }
     }
   }
 }

@@ -19,7 +19,7 @@ export default function Navbar() {
 
         {/* Header title */}
         <h1 className='h1-nav'>
-          <a className='a-nav text-color-buff' href='#section-name'>C</a>
+          <a className='a-nav text-color-buff-dark' href='#section-name'>C</a>
         </h1>
 
         {/* Menu toggle button */}
