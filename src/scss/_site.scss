@@ -1,0 +1,18 @@
+@import '../scss/variables';
+@import '../scss/functions';
+
+html {
+  font-size: $font-medium;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.component-container {
+  height: 100vh;
+}

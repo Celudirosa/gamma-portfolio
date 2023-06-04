@@ -1,20 +1,6 @@
 @import './variables';
 @import './functions';
-@import './typography';
 @import './utilities';
-
-html {
-  font-size: $font-medium;
-  scroll-behavior: smooth;
-}
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.component-container {
-  height: 100vh;
-}
+@import './site';
+@import './typography';
+@import './mixins';
