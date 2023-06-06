@@ -3,7 +3,6 @@
 
 .bg-color-buff {
   color: $color-gray-lighter;
-  display: flex;
   align-items: flex-start;
   padding: 15%;
 
@@ -12,9 +11,20 @@
     color: inherit;
     font-family: $font-primary;
     font-weight: $weight-bold;
+    align-items: center;
   }
 
   h1 {
     margin-bottom: spacing(x-big);
+  }
+}
+
+@media screen and (min-width:700px){
+  h1 {
+    font-size: fs(big);
+  }
+
+  a {
+
   }
 }

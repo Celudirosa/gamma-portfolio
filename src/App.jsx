@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './views/home/Home'
+import Error404 from './views/error404/Error404'
 import './scss/global.scss'
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
     <>
       <main>
         <Routes>
-          <Route path='*' element={<Home />} />
+          <Route path='/' element={<Home />} />
+          <Route path='*' element={<Error404 />} />
         </Routes>
       </main>
     </>
