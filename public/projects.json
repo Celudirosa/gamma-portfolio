@@ -93,6 +93,10 @@
     },
     "tools": [
       {
+        "name": "Figma",
+        "icon": "iconFigma"
+      },
+      {
         "name": "HTML",
         "icon": "iconHtml"
       },
@@ -100,7 +104,6 @@
         "name": "CSS",
         "icon": "iconCss"
       },
-
       {
         "name": "WordPress",
         "icon": "iconWordPress"

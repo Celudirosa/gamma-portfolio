@@ -77,14 +77,14 @@ $font-headers: $font-secondary;
 
 // sizes
 $font_sizes: (
-    "small": 1.2,
-    "medium": 1.5,
-    "large": 1.8,
+    "small":   1.2,
+    "medium":  1.5,
+    "large":   1.8,
     "x-large": 2,
-    "big": 2.4,
-    "x-big": 3,
-    "huge": 5,
-    "x-huge": 7
+    "big":     2.4,
+    "x-big":   3,
+    "huge":    5,
+    "x-huge":  7
 );
 
 // weight
@@ -98,9 +98,9 @@ $weights: (
 
 /* MARGINS & PADDINGS */
 $margins: (
-  "xx-small" :    .75,
-  "x-small"  :    1,
-  'x-big'    :    1.5,
-  "xx-big"   :    2,
-  "huge"     :    4.5
+  "xx-small":  .75,
+  "x-small":  1,
+  'x-big':    1.5,
+  "xx-big":   2,
+  "huge":     4.5
 );

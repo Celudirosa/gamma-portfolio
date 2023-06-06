@@ -1,12 +1,6 @@
 @import '../../scss/variables';
 @import '../../scss/functions';
-
-.hidden {
-  position: absolute;
-  top: 0;
-  right: 0;
-  visibility: hidden;
-}
+@import '../../scss/mixins';
 
 .component-container {
   display: flex;
@@ -21,11 +15,32 @@
   }
 }
 
-  .name {
-    width: 15%;
-    max-height: 200px;
-  }
+.name {
+  width: auto;
+  height: 5rem;
+  padding-right: 2px;
+}
 
+@include mq ($bp-tablet) {
+  .name{
+    height: 8rem;
+    padding-right: 3px;
+  }
+}
+
+@include mq ($bp-laptop) {
+  .name {
+    height: 12rem;
+    padding-right: 4px;
+  }
+}
+
+@include mq ($bp-desktop) {
+  .name {
+    height: 16rem;
+    padding-right: 5px;
+  }
+}
 
 .center {
   width: fit-content;
