@@ -17,27 +17,27 @@
 
 .name {
   width: auto;
-  height: 5rem;
+  height: 4rem;
   padding-right: 2px;
 }
 
 @include mq ($bp-tablet) {
   .name{
-    height: 8rem;
+    height: 7rem;
     padding-right: 3px;
   }
 }
 
 @include mq ($bp-laptop) {
   .name {
-    height: 12rem;
+    height: 10rem;
     padding-right: 4px;
   }
 }
 
 @include mq ($bp-desktop) {
   .name {
-    height: 16rem;
+    height: 13rem;
     padding-right: 5px;
   }
 }
