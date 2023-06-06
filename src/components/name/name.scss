@@ -15,6 +15,25 @@
   }
 }
 
+// align content
+.center {
+  width: fit-content;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+// name svgs
 .name {
   width: auto;
   height: 4rem;
@@ -42,29 +61,14 @@
   }
 }
 
-.center {
-  width: fit-content;
-  height: auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
+// text style
 .text {
   font-family: $font-secondary;
   color: $color-violet;
-  font-size: fs(x-large);
+  font-size: fs(small);
 }
 
+//aka & hand
 .text-bottom {
   position: absolute;
   bottom: 0;
