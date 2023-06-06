@@ -1,11 +1,13 @@
 @import '../../scss/variables';
 @import '../../scss/functions';
+@import '../../scss/mixins';
 
 .a-nav {
   all: unset;
   font-family: $font-details;
   font-weight: normal;
   cursor: pointer;
+  font-size: fs(large);
 }
 
 .header-nav {
@@ -19,7 +21,7 @@
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  padding: spacing(huge);
+  padding: spacing(xx-big);
 }
 
 .nav-button {
@@ -30,6 +32,8 @@
 }
 
 .nav-links {
+  list-style: none;
+  padding: 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
@@ -51,7 +55,7 @@
 
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     height: 0vh;
     opacity: 0;
