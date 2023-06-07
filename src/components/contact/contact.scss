@@ -1,5 +1,6 @@
 @import '../../scss/variables';
 @import '../../scss/functions';
+@import '../../scss/mixins';
 
 .bg-color-buff {
   color: $color-gray-lighter;
@@ -19,12 +20,8 @@
   }
 }
 
-@media screen and (min-width:700px){
+@include mq ($bp-tablet) {
   h1 {
     font-size: fs(big);
-  }
-
-  a {
-
   }
 }
