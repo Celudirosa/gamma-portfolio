@@ -13,7 +13,7 @@ export default function Home() {
           <div className='center'>
             <p className='text text-left font-weight-bold'>Hi! 👋🏻 I'm</p>
               <div className='text-center'>
-                <div className='text-color-buff-dark'>
+                <div>
                   <SvgC />
                   <SvgE />
                   <SvgL />
