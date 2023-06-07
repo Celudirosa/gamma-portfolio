@@ -1,8 +1,8 @@
-import SvgC from '../celia/SvgC';
-import SvgE from '../celia/SvgE';
-import SvgL from '../celia/SvgL';
-import SvgI from '../celia/SvgI';
-import SvgA from '../celia/SvgA';
+import SvgC from '../letters/SvgC';
+import SvgE from '../letters/SvgE';
+import SvgL from '../letters/SvgL';
+import SvgI from '../letters/SvgI';
+import SvgA from '../letters/SvgA';
 import './name.scss';
 
 export default function Home() {

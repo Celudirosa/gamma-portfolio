@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './navbar.scss';
+import SvgCSmall from '../letters/SvgCSmall';
 
 export default function Navbar() {
 
@@ -19,7 +20,7 @@ export default function Navbar() {
 
         {/* Header title */}
         <h1 className='h1-nav'>
-          <a className='a-nav text-color-buff-dark' href='#section-name'>C</a>
+          <a className='text-color-buff-dark' href='#section-name'><SvgCSmall /></a>
         </h1>
 
         {/* Menu toggle button */}

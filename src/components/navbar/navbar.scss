@@ -4,10 +4,13 @@
 
 .a-nav {
   all: unset;
-  font-weight: normal;
   cursor: pointer;
   font-family: $font-headers;
   font-size: fs(large);
+
+  @include mq ($bp-desktop) {
+    font-size: fs(big);
+  }
 }
 
 .header-nav {
@@ -22,6 +25,10 @@
   justify-content: space-between;
   align-items: center;
   padding: spacing(xx-big);
+
+  @include mq ($bp-laptop) {
+    padding: spacing(huge);
+  }
 }
 
 .nav-button {
@@ -45,7 +52,7 @@
   margin: 0 .5rem;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:768px){
 
   .nav-button {
     display: flex;
