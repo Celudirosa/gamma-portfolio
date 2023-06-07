@@ -19,8 +19,8 @@ export default function Navbar() {
       <header className='header-nav'>
 
         {/* Header title */}
-        <h1 className='h1-nav'>
-          <a className='text-color-buff-dark' href='#section-name'><SvgCSmall /></a>
+        <h1>
+          <a className='c-icon' href='#section-name'><SvgCSmall /></a>
         </h1>
 
         {/* Menu toggle button */}
