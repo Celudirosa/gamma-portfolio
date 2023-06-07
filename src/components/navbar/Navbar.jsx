@@ -31,11 +31,11 @@ export default function Navbar() {
         <nav className={ `main-nav ${ menu ? 'isActive' : '' }` }>
           <ul className='nav-links'>
             {/* About section link */}
-            <li className='link-item'><a onClick={ closeMenu } className='a-nav' href='#section-about'>ABOUT</a></li>
+            <li className='link-item'><a onClick={ closeMenu } className='a-nav font-weight-bold' href='#section-about'>ABOUT</a></li>
             {/* Projects section link */}
-            <li className='link-item'><a onClick={ closeMenu } className='a-nav' href='#section-projects'>PROJECTS</a></li>
+            <li className='link-item'><a onClick={ closeMenu } className='a-nav font-weight-bold' href='#section-projects'>PROJECTS</a></li>
             {/* Contact section link */}
-            <li className='link-item'><a onClick={ closeMenu } className='a-nav' href='#section-contact'>CONTACT</a></li>
+            <li className='link-item'><a onClick={ closeMenu } className='a-nav font-weight-bold' href='#section-contact'>CONTACT</a></li>
           </ul>
         </nav>
 
