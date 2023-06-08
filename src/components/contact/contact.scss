@@ -21,7 +21,25 @@
 }
 
 @include mq ($bp-tablet) {
-  h1 {
-    font-size: fs(big);
+  .bg-color-buff {
+    h1 {
+      font-size: fs(big);
+    }
+
+    a {
+      font-size: fs(x-small);
+    }
+  }
+}
+
+@include mq ($bp-laptop) {
+  .bg-color-buff {
+    h1 {
+      font-size: fs(x-big);
+    }
+
+    a {
+      font-size: fs(medium);
+    }
   }
 }
