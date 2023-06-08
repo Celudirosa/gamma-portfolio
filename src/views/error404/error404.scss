@@ -1,0 +1,17 @@
+@import '../../scss/variables';
+@import '../../scss/functions';
+@import '../../scss/mixins';
+
+#section-404 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 2rem;
+    color: white;
+  }
+}
