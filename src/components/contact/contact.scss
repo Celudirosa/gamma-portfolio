@@ -17,6 +17,14 @@
     color: inherit;
     font-family: $font-primary;
     align-items: center;
+
+    span:hover {
+      color: $color-violet;
+    }
+  }
+  
+  .a-hover:hover {
+    color: $color-violet;
   }
 }
 
@@ -26,8 +34,8 @@
       font-size: fs(big);
     }
 
-    a{
-      font-size: fs(small);
+    a {
+      font-size: fs(x-small);
     }
   }
 }
@@ -38,20 +46,8 @@
       font-size: fs(x-big);
     }
 
-    a{
+    a {
       font-size: fs(medium);
-    }
-  }
-}
-
-@include mq ($bp-desktop) {
-  .bg-color-buff {
-    h1 {
-      font-size: fs(huge);
-    }
-
-    a{
-      font-size: fs(large);
     }
   }
 }

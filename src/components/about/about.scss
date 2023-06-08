@@ -2,16 +2,23 @@
 @import '../../scss/functions';
 
 #section-about {
+  display: inline-block;
+  background-color: $color-violet-lighter;
   align-items: flex-start;
   font-family: $font-primary;
 
   h1 {
     font-size: fs(big);
     margin-bottom: spacing(x-big);
+    margin-top: 5.5rem;
   }
   
   > div {
     margin: 0 spacing(huge);
+
+    p {
+      margin-top: spacing(xx-small);
+    }
 
     p:last-of-type.font-weight-bold {
       text-align: right;

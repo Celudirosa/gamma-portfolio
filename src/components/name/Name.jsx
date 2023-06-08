@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import React from 'react';
 import SvgC from '../letters/SvgC';
 import SvgE from '../letters/SvgE';
 import SvgL from '../letters/SvgL';

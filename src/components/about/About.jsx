@@ -1,9 +1,10 @@
+import PhoneWhats from '../phone/PhoneWhats';
 import './about.scss';
 
 export default function About() {
   return (
     <>
-      <section className="bg-color-violet-lighter text-color-gray-lighter component-container" id='section-about'>
+      <section className="bg-color-violet-lighter text-color-gray-lighter" id='section-about'>
         <div>
           <h1 className='font-weight-bold'>ABOUT ME 🙆🏻‍♀️</h1>
           <div>
@@ -14,6 +15,7 @@ export default function About() {
             <p>I am passionate about continuously <span className="font-weight-bold">learning and growing</span> in my field. If you're looking for a dedicated designer and developer to bring your vision to life, </p>
           </div>
           <p className='font-weight-bold'>...I would love to be hired with you! 🔥</p>
+          <PhoneWhats />
         </div>
       </section>
     </>

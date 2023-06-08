@@ -1,0 +1,12 @@
+@import '../../scss/variables';
+@import '../../scss/functions';
+
+.message-container {
+  position: relative;
+}
+
+.message {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
