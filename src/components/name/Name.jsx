@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import SvgC from '../letters/SvgC';
 import SvgE from '../letters/SvgE';
 import SvgL from '../letters/SvgL';
@@ -6,6 +7,13 @@ import SvgA from '../letters/SvgA';
 import './name.scss';
 
 export default function Home() {
+
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const handleHover = (index) => {
+    setHoveredIndex(index);
+  };
+
   return (
     <>
       <section id='section-name'>
@@ -14,11 +22,11 @@ export default function Home() {
             <p className='text text-left font-weight-bold'>Hi! 👋🏻 I'm</p>
               <div className='text-center'>
                 <div>
-                  <SvgC />
-                  <SvgE />
-                  <SvgL />
-                  <SvgI />
-                  <SvgA />
+                  <SvgC fill={hoveredIndex === 0 ? '#5875AC' : '#5875AC'} onMouseEnter={() => handleHover(0)} onMouseLeave={() => handleHover(null)} />
+                  <SvgE fill={hoveredIndex === 0 ? '#8D4E57' : '#8D4E57'} onMouseEnter={() => handleHover(0)} onMouseLeave={() => handleHover(null)} />
+                  <SvgL fill={hoveredIndex === 0 ? '#835C84' : '#835C84'} onMouseEnter={() => handleHover(0)} onMouseLeave={() => handleHover(null)} />
+                  <SvgI fill={hoveredIndex === 0 ? '#BC858D' : '#BC858D'} onMouseEnter={() => handleHover(0)} onMouseLeave={() => handleHover(null)} />
+                  <SvgA fill={hoveredIndex === 0 ? '#9CADCE' : '#9CADCE'} onMouseEnter={() => handleHover(0)} onMouseLeave={() => handleHover(null)} />
                 </div>
               </div>
             <p className='text text-right font-weight-bold'>Luque Díaz</p>
