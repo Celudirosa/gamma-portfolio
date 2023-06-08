@@ -1,7 +1,7 @@
 export default function SvgA() {
   return (
     <>
-    <svg viewBox="0 0 287 251" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="287" height="251" viewBox="0 0 287 251" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0_255_24)">
       <g clip-path="url(#clip1_255_24)">
       <rect x="17" y="15" width="258" height="305" rx="35" fill="#F3CDB4"/>
@@ -9,6 +9,14 @@ export default function SvgA() {
       <path d="M178.255 24.72H112.745C109.987 24.72 107.342 25.8157 105.392 27.7661C103.442 29.7164 102.346 32.3617 102.346 35.12C102.346 37.8782 103.442 40.5235 105.392 42.4739C107.342 44.4243 109.987 45.52 112.745 45.52H178.255C181.013 45.52 183.658 44.4243 185.608 42.4739C187.558 40.5235 188.654 37.8782 188.654 35.12C188.654 32.3617 187.558 29.7164 185.608 27.7661C183.658 25.8157 181.013 24.72 178.255 24.72Z" fill="#414141"/>
       </g>
       </g>
+      <defs>
+      <clipPath id="clip0_255_24">
+      <rect width="287" height="251" fill="white"/>
+      </clipPath>
+      <clipPath id="clip1_255_24">
+      <rect width="287" height="572" fill="white" transform="translate(2 6)"/>
+      </clipPath>
+      </defs>
       </svg>
     </>
   )

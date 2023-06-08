@@ -17,6 +17,14 @@
     color: inherit;
     font-family: $font-primary;
     align-items: center;
+
+    span:hover {
+      color: $color-violet;
+    }
+  }
+  
+  .a-hover:hover {
+    color: $color-violet;
   }
 }
 
