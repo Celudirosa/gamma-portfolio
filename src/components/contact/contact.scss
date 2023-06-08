@@ -7,6 +7,11 @@
   align-items: flex-start;
   padding: 15%;
 
+  h1 {
+    margin-bottom: spacing(x-big);
+    font-size: fs (x-large);
+  }
+
   a {
     text-decoration: none;
     color: inherit;
@@ -14,14 +19,40 @@
     font-weight: $weight-bold;
     align-items: center;
   }
-
-  h1 {
-    margin-bottom: spacing(x-big);
-  }
 }
 
 @include mq ($bp-tablet) {
-  h1 {
-    font-size: fs(big);
+  .bg-color-buff {
+    h1 {
+      font-size: fs(big);
+    }
+
+    a{
+      font-size: fs(small);
+    }
+  }
+}
+
+@include mq ($bp-laptop) {
+  .bg-color-buff {
+    h1 {
+      font-size: fs(x-big);
+    }
+
+    a{
+      font-size: fs(medium);
+    }
+  }
+}
+
+@include mq ($bp-desktop) {
+  .bg-color-buff {
+    h1 {
+      font-size: fs(huge);
+    }
+
+    a{
+      font-size: fs(large);
+    }
   }
 }
