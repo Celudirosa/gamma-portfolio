@@ -14,12 +14,7 @@ export default function Home() {
             <p className='text text-left font-weight-bold'>Hi! 👋🏻 I'm</p>
               <div className='text-center'>
                 <div>
-                  <div className='animation-container'>
-                    <SvgC />
-                    <div className="hover-image-container">
-                      <img src="./src/assets/imgs/hover-01.png" alt="Descripción de la imagen" className="hover-image" />
-                    </div>
-                  </div>
+                  <SvgC />
                   <SvgE />
                   <SvgL />
                   <SvgI />

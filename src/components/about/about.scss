@@ -6,7 +6,7 @@
   font-family: $font-primary;
 
   h1 {
-    font-size: fs(x-big);
+    font-size: fs(big);
     margin-bottom: spacing(x-big);
   }
   
@@ -15,7 +15,7 @@
 
     p:last-of-type.font-weight-bold {
       text-align: right;
-      font-size: fs(large);
+      font-size: fs(medium);
       margin-top: spacing(x-small);
     }
   }

@@ -49,37 +49,6 @@
   cursor: pointer;
 }
 
-// name hover
-.animation-container {
-  position: relative;
-}
-
-.hover-image-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.hover-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.animation-container:hover .hover-image {
-  opacity: 1;
-  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" iewBox="0 0 274 201"><path d="M100 200C44.7715 200 0 155.228 0 100C0 44.7715 44.7715 0 100 0C155.228 0 200 44.7715 200 100C200 155.228 155.228 200 100 200Z"/></svg>');
-  mask-mode: alpha;
-  mask-repeat: no-repeat;
-  mask-size: cover;
-}
-
-
 // aka & hand
 .text-bottom {
   position: absolute;
