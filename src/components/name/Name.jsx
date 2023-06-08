@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SvgC from '../letters/SvgC';
 import SvgE from '../letters/SvgE';
 import SvgL from '../letters/SvgL';
@@ -7,6 +7,9 @@ import SvgA from '../letters/SvgA';
 import './name.scss';
 
 export default function Home() {
+
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <>
       <section id='section-name'>
@@ -15,7 +18,7 @@ export default function Home() {
             <p className='text text-left font-weight-bold'>Hi! 👋🏻 I'm</p>
               <div className='text-center'>
                 <div>
-                  <SvgC />
+                  <SvgC isHovered={isHovered} setIsHovered={setIsHovered} />
                   <SvgE />
                   <SvgL />
                   <SvgI />
