@@ -11,7 +11,6 @@
     text-decoration: none;
     color: inherit;
     font-family: $font-primary;
-    font-weight: $weight-bold;
     align-items: center;
   }
 
@@ -21,7 +20,33 @@
 }
 
 @include mq ($bp-tablet) {
-  h1 {
-    font-size: fs(big);
+  .bg-color-buff {
+    h1 {
+      font-size: fs(big);
+    }
+
+    a{
+      font-size: fs(small);
+    }
+  }
+}
+
+@include mq ($bp-laptop) {
+  .bg-color-buff {
+    h1 {
+      font-size: fs(x-big);
+    }
+
+    a{
+      font-size: fs(medium);
+    }
+  }
+}
+
+@include mq ($bp-desktop) {
+  .bg-color-buff {
+    a{
+      font-size: fs(large);
+    }
   }
 }
