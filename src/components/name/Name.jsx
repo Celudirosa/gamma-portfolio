@@ -6,9 +6,7 @@ import SvgI from '../letters/SvgI';
 import SvgA from '../letters/SvgA';
 import './name.scss';
 
-export default function Home() {
-
-  const [isHovered, setIsHovered] = useState(false);
+export default function Name() {
 
   return (
     <>
@@ -18,7 +16,7 @@ export default function Home() {
             <p className='text text-left font-weight-bold'>Hi! 👋🏻 I'm</p>
               <div className='text-center'>
                 <div>
-                  <SvgC isHovered={isHovered} setIsHovered={setIsHovered} />
+                  <SvgC />
                   <SvgE />
                   <SvgL />
                   <SvgI />
