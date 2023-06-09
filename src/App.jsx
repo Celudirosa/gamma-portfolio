@@ -3,7 +3,7 @@ import Home from './views/home/Home';
 import Error404 from './views/error404/Error404';
 import './scss/global.scss';
 import Project from './views/project/Project';
-import projectsData from './components/projects/projects.json';
+import projectsData from '/@json/projects.json';
 
 function App() {
 	// CHANGE PAGE TITLE

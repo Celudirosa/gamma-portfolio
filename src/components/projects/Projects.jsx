@@ -1,15 +1,9 @@
-import { Link, Route, Routes, useNavigate } from 'react-router-dom';
-import projectsData from './projects.json';
+import { Link, Route, Routes } from 'react-router-dom';
+import projectsData from '/@json/projects.json';
 import './projects.scss';
 import Project from '../../views/project/Project';
 
 export default function Projects() {
-	// En principio esto no te hace falta, con el 'to' del Link sobra para ir al proyecto
-	// const navigate = useNavigate();
-
-	// const handleProjectClick = (id) => {
-	//   navigate(`/project/${id}`);
-	// };
 
 	return (
 		<>
@@ -20,9 +14,7 @@ export default function Projects() {
 						{projectsData.map((project) => (
 							<div key={project.id}>
 								<Link
-									to={`/project/${project.id}`}
-									// onClick={() => handleProjectClick(project.id)} Esto sobra
-								>
+									to={`/project/${project.id}`}>
 									{project.title}
 								</Link>
 							</div>
