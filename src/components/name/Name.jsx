@@ -8,6 +8,12 @@ import './name.scss';
 
 export default function Name() {
 
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const handleHover = (index) => {
+    setHoveredIndex(index);
+  };
+
   return (
     <>
       <section id='section-name'>
@@ -16,11 +22,11 @@ export default function Name() {
             <p className='text text-left font-weight-bold'>Hi! 👋🏻 I'm</p>
               <div className='text-center'>
                 <div>
-                  <SvgC />
-                  <SvgE />
-                  <SvgL />
-                  <SvgI />
-                  <SvgA />
+                  <SvgC fill={hoveredIndex === 0 ? '#8A6079' : '#8A6079'} onMouseEnter={() => handleHover(0)} onMouseLeave={() => handleHover(null)}/>
+                  <SvgE fill={hoveredIndex === 0 ? '#7A91BD' : '#7A91BD'} onMouseEnter={() => handleHover(0)} onMouseLeave={() => handleHover(null)}/>
+                  <SvgL fill={hoveredIndex === 0 ? '#8D4E57' : '#8D4E57'} onMouseEnter={() => handleHover(0)} onMouseLeave={() => handleHover(null)}/>
+                  <SvgI fill={hoveredIndex === 0 ? '#414141' : '#414141'} onMouseEnter={() => handleHover(0)} onMouseLeave={() => handleHover(null)}/>
+                  <SvgA fill={hoveredIndex === 0 ? '#6C4B5E' : '#6C4B5E'} onMouseEnter={() => handleHover(0)} onMouseLeave={() => handleHover(null)}/>
                 </div>
               </div>
             <p className='text text-right font-weight-bold'>Luque Díaz</p>
