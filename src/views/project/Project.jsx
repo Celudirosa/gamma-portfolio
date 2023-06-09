@@ -11,8 +11,10 @@ export default function Project({ projects }) {
 	return (
 		<>
 			<section>
+				<img src={selectedProject.image} alt="" />
 				<h1>{selectedProject.title}</h1>
 				<p>{selectedProject.description}</p>
+				<a href={selectedProject.links.demo}>demo</a>
 			</section>
 		</>
 	);
