@@ -2,9 +2,13 @@
 @import '../../scss/functions';
 
 #section-about {
-  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: $color-violet-lighter;
-  align-items: flex-start;
   font-family: $font-primary;
 
   h1 {

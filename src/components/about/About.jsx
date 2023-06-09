@@ -4,7 +4,7 @@ import './about.scss';
 export default function About() {
   return (
     <>
-      <section className="bg-color-violet-lighter text-color-gray-lighter" id='section-about'>
+      <section className="component-container bg-color-violet-lighter text-color-gray-lighter" id='section-about'>
         <div>
           <h1 className='font-weight-bold'>ABOUT ME 🙆🏻‍♀️</h1>
           <div>

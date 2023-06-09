@@ -1,7 +1,5 @@
 import './phonewhats.scss';
 import Phone from './Phone';
-
-// Cuando llamas a algo de public, con que solo pogas /la ruta dentro del public sobra
 import PdfFile from '/cv--celia-luque.pdf';
 
 export default function PhoneWhats() {
