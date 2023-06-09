@@ -2,19 +2,18 @@
 @import '../../scss/functions';
 
 #section-about {
-  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  position: relative;
   background-color: $color-violet-lighter;
   font-family: $font-primary;
+  padding: 0 10%;
 
   h1 {
     font-size: fs(big);
     margin-bottom: spacing(x-big);
-    margin-top: 5.5rem;
   }
   
   > div {
@@ -28,6 +27,18 @@
       text-align: right;
       font-size: fs(medium);
       margin-top: spacing(x-small);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #section-about {
+    padding: 0;
+    padding-top: 100px;
+    justify-content: flex-start;
+
+    > div {
+      margin: 0 1.5rem;
     }
   }
 }

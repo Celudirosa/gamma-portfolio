@@ -2,16 +2,18 @@
 @import '../../scss/functions';
 
 .menssage-container {
-  position: relative;
+  position: absolute;
+  bottom: -0.1875rem;
+  left: 10%;
 }
 
 .menssages {
   position: absolute;
+  top: 80px;
+  left: 30px;
 }
 
 .menssage-first {
-  top: 70px;
-  left: 50px;
   background-color: $color-buff-dark;
   border-radius: 20px 20px 0 20px;
   padding: 10px;
@@ -21,12 +23,11 @@
 }
 
 .menssage-second {
-  top: 150px;
-  left: 50px;
   background-color: $color-buff-dark;
-  border-radius: 20px 20px 0 20px;
+  border-radius: 20px 0 20px 20px;
   padding: 10px;
   width: 230px;
   text-align: right;
   box-shadow: 0 0 20px $color-violet-darker;
+  margin-top: 10px;
 }
