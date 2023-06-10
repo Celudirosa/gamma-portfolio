@@ -1,12 +1,2 @@
 @import '../../scss/variables';
 @import '../../scss/functions';
-
-#section-about {
-  align-items: flex-start;
-  font-family: $font-primary;
-
-  h1 {
-    font-size: fs(big);
-    margin-bottom: spacing(x-big);
-  }
-}
