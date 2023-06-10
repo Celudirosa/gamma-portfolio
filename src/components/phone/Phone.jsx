@@ -1,6 +1,6 @@
 export default function SvgA() {
   return (
-    <svg width="287" height="251" viewBox="0 0 287 251" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="svg-class" viewBox="0 0 287 251" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clipPath="url(#clip0_255_24)">
         <g clipPath="url(#clip1_255_24)">
           <rect x="17" y="15" width="258" height="305" rx="35" fill="#F3CDB4"/>
