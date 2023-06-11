@@ -11,7 +11,7 @@ export default function PhoneWhats() {
 	const [toogleMenu, setMessageContainerClass] = useState( false );
 
 	const togglePhone = () => {
-	  setMessageContainerClass( !toogleMenu );
+		setMessageContainerClass( !toogleMenu );
 	};
 
 	return (

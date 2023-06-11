@@ -28,7 +28,7 @@
   padding: spacing(xx-big);
 
   @include mq ($bp-laptop) {
-    padding: spacing(huge);
+    padding: spacing(xx-big);
   }
 }
 
