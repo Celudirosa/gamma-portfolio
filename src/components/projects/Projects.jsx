@@ -9,7 +9,7 @@ export default function Projects() {
 		<>
 			<section className="bg-color-blue-light component-container" id="section-projects">
 				<div>
-					<h1>Projects</h1>
+					<h1>💻 Projects</h1>
 					<div>
 						{projectsData.map((project) => (
 							<div key={project.id}>
