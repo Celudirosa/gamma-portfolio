@@ -11,7 +11,7 @@
   background-color: $color-violet-lighter;
   font-family: $font-primary;
   padding: 0 5%;
-  padding-top: 10%;
+  padding-top: 15%;
 
   h1 {
     font-size: fs(x-large);
@@ -31,11 +31,12 @@
 
     p {
       margin-top: spacing(xx-small);
+      line-height: 1.125rem;
     }
 
     p:last-of-type.font-weight-bold {
       text-align: right;
-      font-size: fs(small);
+      font-size: fs(medium);
       margin-top: spacing(x-small);
 
       @include mq ($bp-tablet) {

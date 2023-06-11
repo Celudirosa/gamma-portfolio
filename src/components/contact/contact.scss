@@ -2,7 +2,7 @@
 @import '../../scss/functions';
 @import '../../scss/mixins';
 
-.bg-color-buff {
+#section-contact {
   color: $color-gray-lighter;
   align-items: flex-start;
   padding: 15%;
@@ -26,10 +26,22 @@
   .a-hover:hover {
     color: $color-violet;
   }
+
+  .text-copy {
+    font-family: $font-primary;
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-left: calc(-15%);
+    margin-bottom: 5px;
+  }
 }
 
 @include mq ($bp-tablet) {
-  .bg-color-buff {
+  #section-contact {
     h1 {
       font-size: fs(big);
     }
@@ -41,7 +53,7 @@
 }
 
 @include mq ($bp-laptop) {
-  .bg-color-buff {
+  #section-contact {
     h1 {
       font-size: fs(x-big);
     }

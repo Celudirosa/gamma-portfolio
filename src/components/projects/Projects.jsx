@@ -8,12 +8,12 @@ export default function Projects() {
 	return (
 		<>
 			<section className="bg-color-blue-light component-container" id="section-projects">
+				<h1 className='text-color-violet-dark'>💻 PROJECTS</h1>
 				<div>
-					<h1>💻 Projects</h1>
 					<div>
 						{projectsData.map((project) => (
-							<div key={project.id}>
-								<Link
+							<div className="list-container" key={project.id}>
+								<Link className='list-projects'
 									to={`/project/${project.id}`}>
 									{project.title}
 								</Link>

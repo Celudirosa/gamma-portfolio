@@ -1,2 +1,45 @@
 @import '../../scss/variables';
 @import '../../scss/functions';
+@import '../../scss/mixins';
+
+#section-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-primary;
+  padding: 0 5%;
+  padding-top: 15%;
+
+  h1 {
+    font-size: fs(x-large);
+    margin-bottom: spacing(x-small);
+  }
+
+  .list-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .list-projects {
+    flex: 1;
+    flex-basis: 0;
+    text-decoration: none;
+    text-align: center;
+    color: $color-gray-lighter;
+    background-color: $color-violet;
+    padding: 20px 90px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    transition: box-shadow 0.2s ease-in;
+
+    &:hover {
+      box-shadow: 0 0 10px $color-buff;
+      background-color: $color-violet-light;
+      color: $color-buff-light;
+    }
+  }
+}
+
+@include mq ($bp-laptop) {
+  
+}

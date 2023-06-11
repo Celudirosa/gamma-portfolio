@@ -12,6 +12,9 @@ export default function Contact() {
         <a href="https://www.linkedin.com/in/celia-luque-d%C3%ADaz-837a99130/" target="_blank"><AiFillLinkedin /> <span>Linkedin</span></a>
         <a href="https://github.com/Celudirosa" target="_blank"><FaGithubSquare /> <span>GitHub</span></a>
         <a href="https://www.instagram.com/celudirosa.dsgn/" target="_blank"><FaInstagramSquare /> <span>Instagram</span></a>
+        <div className='text-copy'>
+          <p>Made with love & a lot of coffee by: ©Celudirosa 2023</p>
+        </div>
       </section>
     </>
   )
