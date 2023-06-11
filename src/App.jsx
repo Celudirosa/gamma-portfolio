@@ -23,7 +23,6 @@ function App() {
 			<main>
 				<Routes>
 					<Route path="/" element={<Home />} />
-					{/* Te faltaba añadir la ruta, y como no tienes un context, le tienes que pasar por aqui el listado de proyectos */}
 					<Route path="/project/:id" element={<Project projects={projectsData} />} />
 					<Route path="*" element={<Error404 />} />
 				</Routes>

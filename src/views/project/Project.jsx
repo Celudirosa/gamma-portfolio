@@ -19,6 +19,7 @@ export default function Project({ projects }) {
 				<p>{selectedProject.description}</p>
 				<a href={selectedProject.links.demo}>demo</a>
 				<a href={selectedProject.links.code}>code</a>
+				<a href="/#section-projects" className="back-button">Back to Projects</a>
 			</section>
 		</>
 	);
