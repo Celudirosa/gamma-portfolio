@@ -29,7 +29,7 @@
     background-color: $color-violet;
     padding: 20px 90px;
     margin-bottom: 8px;
-    border-radius: 20px;
+    border-radius: 15px 15px 0 15px;
     transition: box-shadow 0.2s ease-in;
 
     &:hover {
@@ -41,5 +41,5 @@
 }
 
 @include mq ($bp-laptop) {
-  
+
 }
