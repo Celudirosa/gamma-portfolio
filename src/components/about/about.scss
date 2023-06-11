@@ -5,12 +5,13 @@
 #section-about {
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
   background-color: $color-violet-lighter;
   font-family: $font-primary;
-  padding: 0 10%;
+  padding: 0 5%;
+  padding-top: 10%;
 
   h1 {
     font-size: fs(x-large);
@@ -46,7 +47,6 @@
 
 @media only screen and (max-width: 768px) {
   #section-about {
-
     padding-top: 100px;
     justify-content: flex-start;
     font-size: fs(x-small);
