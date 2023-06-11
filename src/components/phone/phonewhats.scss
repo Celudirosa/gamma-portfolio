@@ -12,7 +12,10 @@
   position: absolute;
   top: 80px;
   left: 30px;
+  font-family: $font-primary;
+  font-size: fs(x-small);
   color: #FFFF;
+  margin-top: 0;
 }
 
 .menssage-first {
@@ -22,6 +25,11 @@
   width: 230px;
   text-align: right;
   box-shadow: 0 0 10px $color-violet-darker;
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .menssage-second {
