@@ -11,14 +11,12 @@ export default function Project({ projects }) {
 
 	return (
 		<>
-			<Navbar />
-			<section className="bg-color-gray">
-				<img src={selectedProject.imageIphone} alt="" />
-				<img src={selectedProject.imageDesktop} alt="" />
+			<section className="single-project bg-color-gray-light">
 				<h1>{selectedProject.title}</h1>
+				<img src={selectedProject.image} className="image image-mobile" alt="" />
 				<p>{selectedProject.description}</p>
-				<a href={selectedProject.links.demo}>demo</a>
-				<a href={selectedProject.links.code}>code</a>
+				<a href={selectedProject.links.demo}>Demo</a>
+				<a href={selectedProject.links.code}>Code</a>
 				<a href="/#section-projects" className="back-button">Back to Projects</a>
 			</section>
 		</>

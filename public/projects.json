@@ -2,8 +2,7 @@
   {
     "id": "pomodoro-app",
     "title": "Pomodoro App",
-    "imageIphone": "/imgs/pomodoro-iphone.png",
-    "imageDesktop": "/imgs/pomodoro-desktop.png",
+    "image": "/imgs/pomodoro.png",
     "description": "The Pomodoro-App is a productivity tool designed to help users effectively manage their time and improve focus. Based on the popular Pomodoro Tecnique, the app utilizes a timer system where work periods are divided into smaller intervals. The app provides a user-friendly interface that allows users to easily customize their work and break durations according to their preferences. This app aims to enhance productivity, reduce distractions, and promote efficent work habits.",
     "links": {
       "demo": "https://pomodoro-celudirosa.netlify.app/",
@@ -31,8 +30,7 @@
   {
     "id": "weather-app",
     "title": "Wheather App",
-    "imageIphone": "/imgs/weather-iphone.png",
-    "imageDesktop": "/imgs/weather-desktop.png",
+    "image": "/imgs/weatherapp.png",
     "description": "The Weather-App is a comprehensive and user-friendly application that provides up-to-date weather information for users. With a sleek and intuitive interface, user can easily access accurate weather forecasts, current conditions, and extended forecasts for their desired locations. The app utilizes reliable data sources and advanced meteorological algorithms to deliver precise weather updates, including temperature, humidity, wind speed, and precipitation. The Weather app aims to ssist userrs in planning their activities, staying prepared, and making informed decisions based on the weather conditions.",
     "links": {
       "demo": "https://weather-app-celudirosa.netlify.app/",
@@ -60,8 +58,7 @@
   {
     "id": "to-do-list",
     "title": "To do List",
-    "imageIphone": "/imgs/todo-iphone.png",
-    "imageDesktop": "/imgs/todo-desktop.png",
+    "image": "/imgs/todo.png",
     "description": "The To-Do-List is a powerfull and user-friendly productivity tool dedigned to help users efficiently manage their tasks and stay organized. Whith its intuitive interface, users can easily create their to-do items, ensuring nothing falls through the cracks.",
     "links": {
       "demo": "https://to-do-list-celudirosa.netlify.app/",
@@ -89,8 +86,7 @@
   {
     "id": "fluorescet",
     "title": "Fluorescen-T",
-    "imageIphone": "/imgs/fluorescent-iphone.png",
-    "imageDesktop": "/imgs/fluorescent-desktop.png",
+    "image": "/imgs/fluorescent.png",
     "description": "Our innovate project introduces fluorescent pills, a transformative solution for nighttime activities. These pills, when ingested, activate under stomach acid and emit captivating light, making individuals glow in the dark. Whether for urban cyclists, night shift workers, partygoers, or extreme sports enthusiasts, our pills enhance visibility and safety. With easy and safe usage, our fluorescent pills provide hours of vibrant illumination, ensuring individuals stand out in any nighttime adventure.",
     "links": {
       "code": "https://github.com/Celudirosa/fluorescent/tree/main"
