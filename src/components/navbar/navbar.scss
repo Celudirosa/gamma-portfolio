@@ -26,6 +26,7 @@
   justify-content: space-between;
   align-items: center;
   padding: spacing(xx-big);
+  // backdrop-filter: blur(5px);
 
   @include mq ($bp-laptop) {
     padding: spacing(xx-big);
