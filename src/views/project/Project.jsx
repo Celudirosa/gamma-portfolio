@@ -11,12 +11,12 @@ export default function Project({ projects }) {
 
 	return (
 		<>
-			<section className="single-project bg-color-gray-light">
+			<section className="single-project bg-color-buff">
 				<h1>{selectedProject.title}</h1>
-				<img src={selectedProject.image} className="image image-mobile" alt="" />
+				<img src={selectedProject.image} className="image" alt="" />
 				<p>{selectedProject.description}</p>
-				<a href={selectedProject.links.demo}>Demo</a>
-				<a href={selectedProject.links.code}>Code</a>
+				<a href={selectedProject.links.demo} target="_blank">Demo</a>
+				<a href={selectedProject.links.code} target="_blank">Code</a>
 				<a href="/#section-projects" className="back-button">Back to Projects</a>
 			</section>
 		</>

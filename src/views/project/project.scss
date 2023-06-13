@@ -8,19 +8,13 @@
   align-items: center;
   flex-direction: column;
   height: 100vh;
+
+  color: $color-gray-lighter;
+  font-family: $font-primary;
 }
 
 .image {
+  width: 100%;
+  max-width: 600px;
   height: auto;
-
-  &-mobile {
-    z-index: 1;
-    height: 150px;
-    top: 150px;
-  }
-
-  &-desktop {
-    height: 200px;
-    top: 80px;
-  }
 }
