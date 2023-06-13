@@ -11,10 +11,15 @@
 
   color: $color-gray-lighter;
   font-family: $font-primary;
+
+  &-description {
+    padding: spacing(x-big);
+  }
 }
 
 .image {
   width: 100%;
   max-width: 600px;
   height: auto;
+  padding: spacing(x-big);
 }

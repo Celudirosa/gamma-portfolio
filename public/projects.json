@@ -3,7 +3,7 @@
     "id": "pomodoro-app",
     "title": "Pomodoro App",
     "image": "/imgs/pomodoro.png",
-    "description": "The Pomodoro-App is a productivity tool designed to help users effectively manage their time and improve focus. Based on the popular Pomodoro Tecnique, the app utilizes a timer system where work periods are divided into smaller intervals. The app provides a user-friendly interface that allows users to easily customize their work and break durations according to their preferences. This app aims to enhance productivity, reduce distractions, and promote efficent work habits.",
+    "description": "The Pomodoro-App is a productivity tool designed to help users effectively manage their time and improve focus. Based on the popular Pomodoro Tecnique, the app utilizes a timer system where work periods are divided into smaller intervals.\nThe app provides a user-friendly interface that allows users to easily customize their work and break durations according to their preferences. This app aims to enhance productivity, reduce distractions, and promote efficent work habits.",
     "links": {
       "demo": "https://pomodoro-celudirosa.netlify.app/",
       "code": "https://github.com/Celudirosa/pomodoroApp"
