@@ -41,12 +41,6 @@
       color: $color-buff-light;
     }
   }
-
-  .hovered-image {
-    position: absolute;
-    width: 100px;
-    height: auto;
-  }
 }
 
 @include mq ($bp-laptop) {
@@ -61,8 +55,13 @@
     .list-projects {
       font-size: fs(medium);
     }
+
     .hovered-image {
-      display: none;
+      position: absolute;
+      top: 200px;
+      left: 10%;
+      width: 100px;
+      height: auto;
     }
   }
 }
