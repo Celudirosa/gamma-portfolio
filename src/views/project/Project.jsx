@@ -42,14 +42,19 @@ export default function Project({ projects }) {
 				</div>
 
 				<div className="navigation-buttons">
-          {previousProject && (
-            <Link to={`/project/${previousProject.id}`} className="button">👈🏻</Link>
-          )}
+					{previousProject ? (
+						<Link to={`/project/${previousProject.id}`} className="button">👈🏻</Link>
+					) : (
+						<div className="empty-button"></div>
+					)}
 					<a href="/" className="back-button">🏠</a>
-          {nextProject && (
-            <Link to={`/project/${nextProject.id}`} className="button">👉🏻</Link>
-          )}
-        </div>
+					{nextProject ? (
+						<Link to={`/project/${nextProject.id}`} className="button">👉🏻</Link>
+					) : (
+						<div className="empty-button"></div>
+					)}
+				</div>
+
 			</section>
 		</>
 	);
