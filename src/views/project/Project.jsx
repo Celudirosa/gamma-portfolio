@@ -1,6 +1,5 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-
 import './project.scss';
 
 export default function Project({ projects }) {
@@ -28,17 +27,20 @@ export default function Project({ projects }) {
 					</p>
 				))}
 
-				<p>
+				{/* <p>
 					{selectedProject.tools.map((tool, index) => (
 						<span key={index}>
 							{tool.name}
-							<img src={tool.icon} alt={tool.name} />
+							<img src={tool.icon} alt={tool.name}  className="tool-icon"/>
 						</span>
 					))}
-				</p>
+					</p> */}
 
-				<a href={selectedProject.links.demo} target="_blank">🕹 Demo</a>
-				<a href={selectedProject.links.code} target="_blank">&lt;/code&gt;</a>
+				<div >
+					<a href={selectedProject.links.demo} target="_blank">🕹 Demo</a>
+					<a href={selectedProject.links.code} target="_blank">&lt;/code&gt;</a>
+				</div>
+
 				<a href="/#section-projects" className="back-button">🏠</a>
 
 				<div className="navigation-buttons">

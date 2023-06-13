@@ -12,7 +12,7 @@
     "tools": [
       {
         "name": "HTML",
-        "icon": "iconHtml"
+        "icon": "/imgs/svgs/html.svg"
       },
       {
         "name": "CSS",
