@@ -1,12 +1,16 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 import './project.scss';
 
 export default function Project({ projects }) {
 	const { id } = useParams();
 
-	console.log(projects);
+	const projectIndex = projects.findIndex((p) => p.id === id);
+
+  const previousProject = projects[projectIndex - 1];
+  const nextProject = projects[projectIndex + 1];
+
 	const selectedProject = projects.find((p) => p.id === id);
 
 	// paragraph break
@@ -24,9 +28,22 @@ export default function Project({ projects }) {
 					</p>
 				))}
 
-				<a href={selectedProject.links.demo} target="_blank">Demo</a>
-				<a href={selectedProject.links.code} target="_blank">Code</a>
+				<a href={selectedProject.links.demo} target="_blank">🕹 Demo</a>
+				<a href={selectedProject.links.code} target="_blank">&lt;/code&gt;</a>
 				<a href="/#section-projects" className="back-button">Back to Projects</a>
+
+				<div className="navigation-buttons">
+          {previousProject && (
+            <Link to={`/project/${previousProject.id}`} className="button">
+              Previous Project
+            </Link>
+          )}
+          {nextProject && (
+            <Link to={`/project/${nextProject.id}`} className="button">
+              Next Project
+            </Link>
+          )}
+        </div>
 			</section>
 		</>
 	);
