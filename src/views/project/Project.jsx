@@ -28,6 +28,15 @@ export default function Project({ projects }) {
 					</p>
 				))}
 
+				<p>
+					{selectedProject.tools.map((tool, index) => (
+						<span key={index}>
+							{tool.name}
+							<img src={tool.icon} alt={tool.name} />
+						</span>
+					))}
+				</p>
+
 				<a href={selectedProject.links.demo} target="_blank">🕹 Demo</a>
 				<a href={selectedProject.links.code} target="_blank">&lt;/code&gt;</a>
 				<a href="/#section-projects" className="back-button">🏠</a>

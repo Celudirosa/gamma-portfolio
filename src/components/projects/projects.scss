@@ -58,10 +58,11 @@
 
     .hovered-image {
       position: absolute;
-      top: 200px;
-      left: 10%;
-      width: 100px;
+      left: 0;
+      bottom: 0;
+      width: 40%;
       height: auto;
+      border-top-right-radius: 20px;
     }
   }
 }
