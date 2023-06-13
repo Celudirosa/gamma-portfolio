@@ -36,17 +36,16 @@ export default function Project({ projects }) {
 					))}
 					</p> */}
 
-				<div >
+				<div className='project-links'>
 					<a href={selectedProject.links.demo} target="_blank">🕹 Demo</a>
 					<a href={selectedProject.links.code} target="_blank">&lt;/code&gt;</a>
 				</div>
-
-				<a href="/#section-projects" className="back-button">🏠</a>
 
 				<div className="navigation-buttons">
           {previousProject && (
             <Link to={`/project/${previousProject.id}`} className="button">👈🏻</Link>
           )}
+					<a href="/" className="back-button">🏠</a>
           {nextProject && (
             <Link to={`/project/${nextProject.id}`} className="button">👉🏻</Link>
           )}

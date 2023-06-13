@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  min-height: 100vh;
 
   color: $color-gray-lighter;
   font-family: $font-primary;
@@ -15,16 +16,26 @@
     font-size: fs(x-large);
     padding-top: spacing(x-big);
   }
+  
+  p {
+    padding-bottom: 0;
+  }
 
   .image {
     width: 100%;
     max-width: 600px;
     height: auto;
     padding: spacing(x-big);
-
   }
 
   &-description {
+    padding: spacing(x-big);
+  }
+
+  .project-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     padding: spacing(x-big);
   }
 }
