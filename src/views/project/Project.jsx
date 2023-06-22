@@ -3,12 +3,17 @@ import { useParams, Link } from 'react-router-dom';
 import './project.scss';
 
 export default function Project({ projects }) {
+
+	// access by id
 	const { id } = useParams();
 
+	// search in the array projects and find the project whose id matches the value obtained
 	const selectedProject = projects.find((p) => p.id === id);
 
+	// get the index of the selected project in the array
 	const projectIndex = projects.findIndex((p) => p.id === id);
 
+	// access the previous and next projects in the array
   const previousProject = projects[projectIndex - 1];
   const nextProject = projects[projectIndex + 1];
 
@@ -41,6 +46,7 @@ export default function Project({ projects }) {
 					<a href={selectedProject.links.code} target="_blank">&lt;/code&gt;</a>
 				</div>
 
+				{/* navigation between projects */}
 				<div className="navigation-buttons">
 					{previousProject ? (
 						<Link to={`/project/${previousProject.id}`} className="button">👈🏻</Link>

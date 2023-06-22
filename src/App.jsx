@@ -7,14 +7,17 @@ import projectsData from '/@json/projects.json';
 
 function App() {
 	// CHANGE PAGE TITLE
-	// Detect when the user changes tabs
+	// get the html title
+	var originalTitle = document.title;
+
+	// detect when the user changes tabs
 	document.addEventListener('visibilitychange', function () {
 		if (document.hidden) {
-			// The user is in another tab
-			document.title = 'I miss u 💔'; // Change the tab title
+			// the user is in another tab
+			document.title = 'I miss u 💔'; // change the tab title
 		} else {
-			// The user returned to the current tab
-			document.title = 'Celudirosa'; // Restore the original title
+			// the user returned to the current tab
+			document.title = originalTitle; // restore the original title
 		}
 	});
 

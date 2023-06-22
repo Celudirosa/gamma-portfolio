@@ -1,0 +1,53 @@
+/* COLORS */
+/* TYPOGRAPHY */
+/* MARGINS & PADDINGS */
+/* MEDIA */
+#section-contact {
+  color: #EEEDED;
+  align-items: flex-start;
+  padding: 15%;
+}
+#section-contact h1 {
+  margin-bottom: 1.5rem;
+  font-size: fs x-large;
+}
+#section-contact a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Space Grotesk", sans-serif;
+  align-items: center;
+}
+#section-contact a span:hover {
+  color: #624563;
+}
+#section-contact .a-hover:hover {
+  color: #624563;
+}
+#section-contact .text-copy {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: small;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  margin-left: -15%;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 48rem) {
+  #section-contact h1 {
+    font-size: 2.4em;
+  }
+  #section-contact a {
+    font-size: 0.9em;
+  }
+}
+@media only screen and (min-width: 64rem) {
+  #section-contact h1 {
+    font-size: 3em;
+  }
+  #section-contact a {
+    font-size: 1.5em;
+  }
+}/*# sourceMappingURL=contact.css.map */

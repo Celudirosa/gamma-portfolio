@@ -4,12 +4,15 @@ import SvgCSmall from '../letters/SvgCSmall';
 
 export default function Navbar() {
 
+  // update the menu value
   const [ menu , setMenu ] = useState( false )
 
+  // change state menu
   const toggleMenu = () => {
     setMenu( !menu )
   }
 
+  // close menu
   const closeMenu = () => {
     setMenu( false )
   }

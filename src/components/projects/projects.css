@@ -1,0 +1,60 @@
+/* COLORS */
+/* TYPOGRAPHY */
+/* MARGINS & PADDINGS */
+/* MEDIA */
+#section-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  padding: 0 5%;
+}
+#section-projects h1 {
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
+#section-projects .list-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#section-projects .list-projects {
+  flex: 1;
+  flex-basis: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #EEEDED;
+  background-color: #624563;
+  padding: 20px 90px;
+  margin-bottom: 8px;
+  border-radius: 15px 15px 0 15px;
+  transition: box-shadow 0.2s ease-in;
+  position: relative;
+  z-index: 1;
+}
+#section-projects .list-projects:hover {
+  box-shadow: 0 0 10px #E5925C;
+  background-color: #835C84;
+  color: #ECAF88;
+}
+
+@media only screen and (min-width: 64rem) {
+  #section-projects {
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #section-projects h1 {
+    font-size: 5em;
+  }
+  #section-projects .list-projects {
+    font-size: 1.5em;
+  }
+  #section-projects .hovered-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    height: auto;
+    border-top-right-radius: 20px;
+  }
+}/*# sourceMappingURL=projects.css.map */

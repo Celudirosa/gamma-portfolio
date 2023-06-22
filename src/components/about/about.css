@@ -1,0 +1,59 @@
+/* COLORS */
+/* TYPOGRAPHY */
+/* MARGINS & PADDINGS */
+/* MEDIA */
+#section-about {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  background-color: #9D759F;
+  font-family: "Space Grotesk", sans-serif;
+  padding: 0 5%;
+  padding-top: 10%;
+}
+#section-about h1 {
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
+@media only screen and (min-width: 48rem) {
+  #section-about h1 {
+    font-size: 3em;
+  }
+}
+@media only screen and (min-width: 64rem) {
+  #section-about h1 {
+    font-size: 5em;
+  }
+}
+#section-about > div {
+  margin: 0 4.5rem;
+}
+#section-about > div p {
+  margin-top: 0.75rem;
+  line-height: 1.125rem;
+}
+#section-about > div p:last-of-type.font-weight-bold {
+  text-align: right;
+  font-size: 1.5em;
+  margin-top: 1rem;
+}
+@media only screen and (min-width: 48rem) {
+  #section-about > div p:last-of-type.font-weight-bold {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #section-about {
+    padding-top: 100px;
+    justify-content: flex-start;
+    font-size: 0.9em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #section-about > div {
+    margin: 0 1.5rem;
+  }
+}/*# sourceMappingURL=about.css.map */

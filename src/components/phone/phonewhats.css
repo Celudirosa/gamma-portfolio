@@ -1,0 +1,84 @@
+/* COLORS */
+/* TYPOGRAPHY */
+/* MARGINS & PADDINGS */
+.menssage-container {
+  position: absolute;
+  bottom: -0.1875rem;
+  left: 10%;
+  transition: bottom 1s;
+}
+
+.menssages {
+  position: absolute;
+  top: 5rem;
+  left: 1.875rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.9em;
+  color: #EEEDED;
+  margin-top: 0;
+}
+
+.menssage-first {
+  background-color: #E5925C;
+  border-radius: 15px 15px 15px 0;
+  padding: 0.625rem;
+  width: 14.375rem;
+  text-align: right;
+  box-shadow: 0 0 10px #2A1D2A;
+}
+.menssage-first p {
+  margin: 0;
+  padding: 0;
+  margin-top: 0 !important;
+}
+
+.menssage-second {
+  background-color: #E5925C;
+  border-radius: 15px 15px 15px 0;
+  padding: 0.625rem;
+  width: 14.375rem;
+  text-align: right;
+  box-shadow: 0 0 10px #2A1D2A;
+  margin-top: 0.625rem;
+}
+.menssage-second a {
+  text-decoration: none;
+  color: #EEEDED;
+}
+.menssage-second a:hover {
+  color: #624563;
+}
+.menssage-second p.menssage-cv {
+  margin-top: 0.3rem !important;
+}
+
+.svg-class {
+  width: 17.9375rem;
+  height: 15.6875rem;
+}
+
+.btn-no-class {
+  border: 0;
+  background: transparent;
+}
+
+@media only screen and (max-width: 768px) and (max-height: 800px) {
+  .menssage-container {
+    bottom: -12rem;
+  }
+  .menssage-container.toggle-phone {
+    bottom: -0.1875rem;
+  }
+  .menssage-container .svg-button {
+    filter: drop-shadow(0px 0px 10px rgba(189, 93, 30, 0.8));
+    animation: shadowFade 2s infinite;
+  }
+  @keyframes shadowFade {
+    0%, 100% {
+      filter: drop-shadow(0px 0px 10px rgba(189, 93, 30, 0.8));
+    }
+    50% {
+      filter: drop-shadow(0px 0px 2px rgba(189, 93, 30, 0.2));
+    }
+  }
+}/*# sourceMappingURL=phonewhats.css.map */

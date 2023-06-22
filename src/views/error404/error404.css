@@ -1,0 +1,33 @@
+/* COLORS */
+/* TYPOGRAPHY */
+/* MARGINS & PADDINGS */
+/* MEDIA */
+#section-404 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section-404 .text {
+  font-size: 1.8em;
+  color: #EEEDED;
+  text-align: center;
+}
+#section-404 .text-404 {
+  font-size: 5em;
+}
+#section-404 .text-link {
+  text-decoration: none;
+  color: #EEEDED;
+  font-family: "Space Grotesk", sans-serif;
+  cursor: pointer;
+  transition: font-size 0.3s ease;
+  font-size: 2em;
+  margin: 1.5rem;
+}
+#section-404 .text-link:hover {
+  font-size: 2.4em;
+  color: #F3CDB4;
+}/*# sourceMappingURL=error404.css.map */

@@ -8,8 +8,11 @@ import './name.scss';
 
 export default function Name() {
 
+  // CHANGE LETTERS COLORS
+  // stores the index of the element on which the mouse cursor is located
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
+  // function for hover event
   const handleHover = (index) => {
     setHoveredIndex(index);
   };
